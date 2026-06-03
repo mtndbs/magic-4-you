@@ -2,6 +2,7 @@ import { Button } from "../ui/Button";
 import { ChevronLeft, Camera as CameraIcon } from "lucide-react";
 import imgBack from "../../assets/1770490356937_original_1.jpeg";
 import imgFront from "../../assets/1770496217349_original_2.jpeg";
+import logo from "../../assets/logo.webp";
 
 export const About = () => {
   return (
@@ -48,10 +49,12 @@ export const About = () => {
 
           {/* Middle Card (The logo one) */}
           <div className="absolute z-10 w-[300px] h-[400px] bg-dark border-[6px] border-white max-w-full rounded shadow-2xl flex flex-col items-center justify-center transform rotate-2">
-            <CameraIcon
-              className="w-32 h-32 text-gold drop-shadow-lg mb-6"
-              strokeWidth={1}
+            <img
+              src={logo}
+              alt="Magic 4 You Logo"
+              className="w-48 h-48 object-contain drop-shadow-[0_0_30px_rgba(234,194,130,0.8)]"
             />
+
             <h3 className="text-4xl text-gold font-script">Magic 4 you</h3>
             <p className="text-[0.6rem] uppercase tracking-[0.2em] text-gray-500 mt-2 text-center px-4">
               אנו מקפיאים זכרונות, שתנצרו לנצח.
