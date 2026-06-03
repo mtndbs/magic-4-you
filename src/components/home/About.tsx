@@ -1,5 +1,5 @@
 import { Button } from "../ui/Button";
-import { ChevronLeft, Camera as CameraIcon } from "lucide-react";
+import { ChevronLeft } from "lucide-react";
 import imgBack from "../../assets/1770490356937_original_1.jpeg";
 import imgFront from "../../assets/1770496217349_original_2.jpeg";
 import logo from "../../assets/logo.webp";
